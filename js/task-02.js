@@ -7,7 +7,6 @@ const ingredients = [
   'Condiments',
 ];
 
-
 const getEl = document.getElementById('ingredients');
 console.log(getEl);
 
@@ -16,4 +15,3 @@ for (const name  of ingredients) {
   liElem.textContent = name;
   getEl.appendChild(liElem);
 }
-
