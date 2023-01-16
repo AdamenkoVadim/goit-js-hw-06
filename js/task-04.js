@@ -1,5 +1,3 @@
-
-
 const decrementBtn = document.querySelector('[data-action="decrement"]');
 const incrementBtn = document.querySelector('[data-action="increment"]');
 const valueEl = document.querySelector('[id="value"]');
