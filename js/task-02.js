@@ -8,10 +8,11 @@ const ingredients = [
 ];
 
 const getEl = document.getElementById('ingredients');
-console.log(getEl);
 
 for (const name  of ingredients) {
   const liElem = document.createElement('li');
   liElem.textContent = name;
+  liElem.classList.add('item');
   getEl.appendChild(liElem);
+  
 }
