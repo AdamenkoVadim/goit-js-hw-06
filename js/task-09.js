@@ -10,5 +10,4 @@ changeBtn.addEventListener('click', () => {
   const random = getRandomHexColor();
   bodyEl.style.backgroundColor = random;
   colorSpan.textContent = random;
-  console.log(random);
 })
