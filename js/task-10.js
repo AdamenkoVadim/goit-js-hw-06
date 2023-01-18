@@ -12,7 +12,6 @@ createBtn.addEventListener('click',()=>{
   const boxSize = 30;
   for (let i = 0; i < amount.value; i++) {
     const num = boxSize + i * 10;
-    console.log(i);
     const divEl = document.createElement('div');
     divEl.style.cssText =`width: ${num}px;
     height: ${num}px;
